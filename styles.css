@@ -1,0 +1,83 @@
+/* General reset */
+body, h1, label, input, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    padding: 10px;
+}
+
+/* Form styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
+}
+
+/* Labels and Inputs */
+label {
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 4px 8px;  /* Minimized padding */
+    margin-bottom: 10px; /* Less margin */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px; /* Smaller font */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 0;  /* Smaller button height */
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 400px) {
+    form {
+        padding: 8px;
+    }
+
+    input, select {
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+
+    input[type="submit"] {
+        font-size: 11px;
+    }
+}
