@@ -10,12 +10,14 @@ body {
     background-color: #f4f7f9;
     color: #333;
     padding: 10px;
+    background: url('folder/car.jfif') no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* Form styling */
 h1 {
     text-align: center;
-    color: #2c3e50;
+    color: white;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
@@ -51,7 +53,7 @@ select {
 
 input[type="submit"] {
     width: 100%;
-    background-color: #3498db;
+    background-color: #2f3636;
     color: white;
     border: none;
     border-radius: 3px;
